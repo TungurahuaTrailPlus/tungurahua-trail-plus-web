@@ -1,0 +1,54 @@
+media:
+  - name: images
+    label: Fotografías e imágenes
+    input: assets/uploads
+    output: assets/uploads
+    categories: [image]
+
+content:
+  - name: site
+    label: Contenido del sitio
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: halloween
+        label: Halloween Trail Urbano
+        type: object
+        fields:
+          - { name: title, label: Nombre, type: string }
+          - { name: dateLabel, label: Fecha y lugar, type: string }
+          - { name: description, label: Descripción, type: text }
+          - { name: distances, label: Distancias, type: string }
+          - { name: extra, label: Hora y precio, type: string }
+          - { name: registrationUrl, label: Link de inscripción, type: string }
+          - { name: poster, label: Imagen principal, type: image }
+          - { name: categoriesImage, label: Imagen de categorías, type: image }
+      - name: cascadas
+        label: Ruta de las Cascadas
+        type: object
+        fields:
+          - { name: title, label: Nombre, type: string }
+          - { name: dateLabel, label: Fecha y lugar, type: string }
+          - { name: description, label: Descripción, type: text }
+          - { name: distances, label: Distancias, type: string }
+          - { name: extra, label: Etiqueta, type: string }
+          - { name: registrationUrl, label: Link de inscripción, type: string }
+          - { name: poster, label: Imagen principal, type: image }
+      - name: links
+        label: Enlaces y contacto
+        type: object
+        fields:
+          - { name: whatsapp, label: WhatsApp, type: string }
+          - { name: email, label: Correo, type: string }
+          - { name: instagram, label: Instagram, type: string }
+          - { name: results, label: Resultados oficiales, type: string }
+          - { name: points, label: Tabla de puntuaciones, type: string }
+      - name: sponsors
+        label: Auspiciantes
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Marca, type: string }
+          - { name: image, label: Logo o foto, type: image, required: false }
+          - { name: url, label: Enlace de la marca, type: string, required: false }
