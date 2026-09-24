@@ -1,0 +1,35 @@
+{
+  "halloween": {
+    "title": "HALLOWEEN TRAIL URBANO",
+    "dateLabel": "25 OCT · AMBATO",
+    "description": "Una experiencia nocturna que mezcla running, ciudad y terror. Competencia, disfraces y una puesta en escena diferente.",
+    "distances": "3 KM · 7 KM",
+    "extra": "17H00 · USD 20",
+    "registrationUrl": "https://cronometrajeinstantaneo.com/inscripciones/tungurahua-trail-plus-halloween-urbano",
+    "poster": "assets/halloween-poster.png",
+    "categoriesImage": "assets/halloween-categorias.jpg"
+  },
+  "cascadas": {
+    "title": "RUTA DE LAS CASCADAS",
+    "dateLabel": "20 DIC · BAÑOS DE AGUA SANTA",
+    "description": "Gran final del Campeonato Provincial de Trail Running 2026. La tercera válida cierra la temporada entre montaña, agua y uno de los destinos más emblemáticos de Tungurahua.",
+    "distances": "5 KM · 10 KM · 20 KM",
+    "extra": "3.ª VÁLIDA",
+    "registrationUrl": "",
+    "poster": "assets/cascadas-poster.jpg"
+  },
+  "links": {
+    "whatsapp": "https://wa.me/message/EGQYGFPQRLEFD1",
+    "email": "urkuandinoec@gmail.com",
+    "instagram": "https://www.instagram.com/tungurahua_trail_plus?stkn=MXd0cjhsd3k3ZW4wZQ%3D%3D&utm_source=qr",
+    "results": "https://www.instagram.com/p/DdaaQdFDgb-/?stkn=cGl2YnNscXYzeW82",
+    "points": ""
+  },
+  "sponsors": [
+    {"name":"Auspiciantes 1","image":"","url":""},
+    {"name":"Auspiciantes 2","image":"","url":""},
+    {"name":"Auspiciantes 3","image":"","url":""},
+    {"name":"Auspiciantes 4","image":"","url":""},
+    {"name":"Auspiciantes 5","image":"","url":""}
+  ]
+}
