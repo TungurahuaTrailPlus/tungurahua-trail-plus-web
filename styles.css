@@ -32,3 +32,36 @@
   background:#1b211f !important;
   border-bottom:2px solid #c8ff00 !important;
 }
+/* ===== HACER MÁS VISIBLES LOS LOGOS ===== */
+
+/* Todos los logos cuyo archivo tenga "logo" o "tungurahua" en el nombre */
+img[src*="logo"],
+img[src*="tungurahua"]{
+  background: rgba(255,255,255,0.08);
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(0,0,0,0.35);
+  filter: brightness(2.15) contrast(1.18) drop-shadow(0 0 10px rgba(255,255,255,0.14));
+}
+
+/* Logo pequeño de la esquina superior izquierda */
+.topbar img[src*="logo"],
+.topbar img[src*="tungurahua"]{
+  height: 48px !important;
+  width: auto !important;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.10);
+  border-radius: 14px;
+}
+
+/* Logo grande dentro de las secciones */
+.hero img[src*="logo"],
+.hero img[src*="tungurahua"],
+section img[src*="logo"],
+section img[src*="tungurahua"]{
+  max-width: 260px !important;
+  width: 100%;
+  height: auto;
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.10);
+  border-radius: 18px;
+}
